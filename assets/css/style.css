@@ -1,0 +1,57 @@
+section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+article{
+    width: 350px;
+    border: 2px solid #333333;
+    border-radius: 20px;
+    background:lightblue;
+    padding: 0 20px 200px;
+    position: relative;
+    transition: padding .5s;
+}
+h1{
+    text-align: center;
+    font-size: 2rem;
+}
+label{
+    display: block;
+    font-size: 1.2rem;
+    padding-left: 30px;
+}
+input{
+    margin-left: 30px;
+    width: 90%;
+    margin-bottom: 10px;
+}
+img{
+    position: absolute;
+}
+select{
+    width: 91.5%;
+    margin-left: 30px;
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+}
+button{
+    width: 30%;
+    display: block;
+    margin: auto;
+    border-radius: 10px;
+}
+h2{
+    font-weight: 400;
+}
+div{
+    height: 0;
+    overflow: hidden;
+    transition: height .5s;
+}
+#rechner>a{
+    position: absolute;
+    top: 10px;
+    right: 40px;
+}
